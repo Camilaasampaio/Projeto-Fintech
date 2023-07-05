@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95CC9EA2-3A33-BF5F-857C-01BC80DCAF7F" name="T_USUARIO">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>C065B713-7DEC-E29B-DC4B-9A99156402A9</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_usuario" id="71C03123-F988-7508-B73F-19147CFD476A">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>EDE420A2-32B1-AAF5-B682-E42291EEB8A9</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_usuario" id="502D70AA-802C-68FE-59FD-304B1A01A6AB">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>4AAE3D08-F89D-3A18-9408-78DCAEEB15FC</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_email" id="5CA79921-63E9-4852-85A4-47940FFAA9E3">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>1D0990C1-AEE6-DF8C-E1D3-A1D74DB2830F</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tx_senha" id="574515A2-AFE2-9D58-B898-30443D0C41E2">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>54E890B9-65EF-4BF5-01E1-EBCD8B76723D</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_agencia" id="FB7064E9-4A4B-6CCE-A389-EE0F95E67530">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>0022604F-E4AC-A7E5-42E1-B33EB3191BF2</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_conta" id="27355A8D-99C8-62AE-BD33-726108525AC9">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>C9DAE5A2-2857-3AE6-9F33-D72C53A04B51</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cadastro" id="30F6609F-208A-359C-D96C-7BF0E8338EDE">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>63B8F6AB-4AA7-2492-D5D2-25B95B7F0122</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1A135F7-82E3-4B48-B358-3D8F56FA67BB" name="T_USUARIO_PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>59E6EF53-D747-3E75-C156-499EB676EB41</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="71C03123-F988-7508-B73F-19147CFD476A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

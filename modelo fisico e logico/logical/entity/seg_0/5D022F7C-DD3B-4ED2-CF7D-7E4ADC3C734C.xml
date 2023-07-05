@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D022F7C-DD3B-4ED2-CF7D-7E4ADC3C734C" name="T_TRANSFERENCIA">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:40:13 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_transferencia" id="21964036-6CEE-F447-1909-3FCF42370E12">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:47:39 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_transferencia" id="7C6E048C-1729-BE1C-0E02-2DB79E750DF6">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:47:55 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_transferencia" id="200B6350-C4DD-3984-6BF2-16BC02DE5F67">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:48:16 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_transferencia" id="D0A2120A-1DD6-5F35-B288-821CAD9C0B73">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:48:40 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo" id="4B04EF63-FBFA-710D-CE20-93C2988B8D15">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:48:58 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="1EE21EAF-7C23-F15C-B82C-C38456B8895C">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:59:58 UTC</createdTime>
+<generatorID>D92DEC59-419E-9BA3-5068-226E72A0078E</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<referedAttribute>4DD6A995-1106-42DE-51B3-5F77B6CEA8BB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_imagem" id="6F64ACEC-4699-05C4-7A4D-5B9F60ABF10D">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 22:00:43 UTC</createdTime>
+<generatorID>0366F752-E1D6-E486-DF93-4B8BEF8C8486</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<referedAttribute>9DBD7CE2-A065-EB45-2B6E-A846A4D1E4BF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B3E88D6-90EC-4F81-FD32-4297EAD25F17" name="T_TRANSFERENCIA PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:47:53 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21964036-6CEE-F447-1909-3FCF42370E12</attributeRef>
+<attributeRef>1EE21EAF-7C23-F15C-B82C-C38456B8895C</attributeRef>
+<attributeRef>6F64ACEC-4699-05C4-7A4D-5B9F60ABF10D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

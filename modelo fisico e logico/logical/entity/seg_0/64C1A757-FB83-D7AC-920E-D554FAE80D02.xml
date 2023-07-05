@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64C1A757-FB83-D7AC-920E-D554FAE80D02" name="T_USUARIO">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:39:33 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="4DD6A995-1106-42DE-51B3-5F77B6CEA8BB">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:42:42 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuario" id="9CADCC74-3E81-BF78-0F1F-47A071F9264D">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:42:58 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_email" id="91D096BC-E80D-7AB0-44E7-01485D2C13AC">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:43:19 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tx_senha" id="8EDA3503-0B5A-56D6-7345-43A74DD083F5">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:43:59 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_agencia" id="6E8E7B88-9C3F-2E7A-236A-6BF28209DF15">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:44:19 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_conta" id="142D040A-3D9B-9F88-D30A-2E30DC115C61">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:44:51 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cadasto" id="B7DAC613-F0B5-1C32-50DB-433076E76A05">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:45:04 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C405618D-9F09-F2AB-1F52-6402C0599629" name="T_USUARIO PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:42:56 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4DD6A995-1106-42DE-51B3-5F77B6CEA8BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

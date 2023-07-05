@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="007BEACE-ADE8-3974-E5D0-D4477240E955" name="T_IMAGEM">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:55 UTC</createdTime>
+<generatorID>BF0BA845-B11E-1CC3-C3B4-10762A70F084</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_imagem" id="9EE2AC67-CB39-14A7-62F9-14898AE00E70">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:55 UTC</createdTime>
+<generatorID>B670372B-6DE9-C65B-FA24-FEB7822C8A04</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_imagem" id="E01C178D-248B-A79D-7C70-19C0738F82F5">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:55 UTC</createdTime>
+<generatorID>9AD19D91-FDEB-FEB4-1AAD-AC5A5E446F14</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_caminho" id="B66F8670-A2B7-F39B-2032-2BEA0CC8AFAA">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:55 UTC</createdTime>
+<generatorID>E4A204FF-EA3C-CB8C-46EE-2C154DC7193E</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69B62A1A-A314-531D-32DA-F278B0AA1A47" name="T_IMAGEM_PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:55 UTC</createdTime>
+<generatorID>814D268A-A57C-A0D2-E893-85705873C078</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EE2AC67-CB39-14A7-62F9-14898AE00E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

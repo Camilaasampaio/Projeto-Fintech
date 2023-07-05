@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AD33552A-2721-CEEE-06CF-30C3ACD0C7BA" name="T_IMAGEM">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:40:32 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_imagem" id="9DBD7CE2-A065-EB45-2B6E-A846A4D1E4BF">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:58:46 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_imagem" id="57CD683E-61F8-AAA6-65C3-B241375A1063">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:59:01 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_caminho" id="0EBD6554-5C5D-C254-652B-74609289CA06">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:59:13 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DB3ECCE2-1C9E-8607-054D-B921320DDA32" name="T_IMAGEM PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:58:54 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DBD7CE2-A065-EB45-2B6E-A846A4D1E4BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

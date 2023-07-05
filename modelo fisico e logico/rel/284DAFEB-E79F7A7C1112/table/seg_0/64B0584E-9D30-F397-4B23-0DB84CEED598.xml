@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64B0584E-9D30-F397-4B23-0DB84CEED598" name="T_TRANSFERENCIAS">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>283D40E4-F930-E686-4378-189FE7AA59F7</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_transferencia" id="1E11A927-0EC1-0558-F5DD-34BB9B08CC80">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>7809E147-D7D3-5F94-5734-381E3DA2C54F</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_transferencia" id="65AACA78-5A1B-5CFE-AD77-13CA3882E28C">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>C1E0815C-C2A7-3385-2530-72111A7D6696</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_transferencia" id="1CBEF063-7F0C-5756-7E9B-37797327FE51">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>579B3DCF-ABE3-453B-0310-5C9B38C8DBE9</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_transferencia" id="2D80092C-4C88-3A38-1612-3E28071AED32">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>811CB0EB-CEC2-772C-E6F0-4A06B4D6116D</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo" id="C5D98BEF-82FA-1BF4-D698-75E4025A03D6">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>671FE41C-BDE9-F8E0-9508-FFB1ECEFD295</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usuario" id="88C4753D-9B6F-8FD8-0578-9CFD4723D6B1">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>DEF446DC-D1E8-BAC1-B239-AB28ADABD78C</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37A8F99D-79FE-C3D9-FC09-D61755D0FC32" referredColumn="71C03123-F988-7508-B73F-19147CFD476A"/>
+</associations>
+</Column>
+<Column name="T_IMAGEM_cd_imagem" id="52B19F34-848D-F208-98A9-BA98C4E2E5BE">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>C4F7215C-770A-E87E-0182-745D934E0F65</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFABF68E-3B42-B67F-89A8-5F49D3F4309F" referredColumn="9EE2AC67-CB39-14A7-62F9-14898AE00E70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A109D0D0-A8B5-D04C-1888-A4FE3C17B2D8" name="T_TRANSFERENCIAS_PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>05FC29A7-CC71-37FB-EDF5-4CB410AC9198</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E11A927-0EC1-0558-F5DD-34BB9B08CC80"/>
+<colUsage columnID="88C4753D-9B6F-8FD8-0578-9CFD4723D6B1"/>
+<colUsage columnID="52B19F34-848D-F208-98A9-BA98C4E2E5BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="817AFC63-CA62-94FA-4AF9-BBB7CD029A6B" name="T_TRANSFERENCIAS_T_USUARIO_FK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>BFAB9862-DC98-4434-F9CA-227DADF38008</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88C4753D-9B6F-8FD8-0578-9CFD4723D6B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72186088-70E5-AD5B-BD93-3DBE22996878" name="T_TRANSFERENCIAS_T_IMAGEM_FK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>F91735CD-1993-4C40-AAF3-E8D8FD676241</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52B19F34-848D-F208-98A9-BA98C4E2E5BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

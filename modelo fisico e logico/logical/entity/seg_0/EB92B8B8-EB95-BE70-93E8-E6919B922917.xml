@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB92B8B8-EB95-BE70-93E8-E6919B922917" name="T_POUPANCA">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:39:47 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_poupanca" id="0FC16A58-A63F-07A9-49A4-2C51C51DD939">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:51:12 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_poupanca" id="D536CFA8-211E-275A-8945-58CDA2AE1835">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:51:22 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_abertura" id="547A69D6-773B-E1FD-B04C-A94EC6B042B5">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:52:22 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="76D50938-8111-8344-CC96-8C217BF9DAE4">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 22:00:28 UTC</createdTime>
+<generatorID>3BCF664C-9C8C-745B-5205-18D2BB9EE25C</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<referedAttribute>4DD6A995-1106-42DE-51B3-5F77B6CEA8BB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="312F8A35-DDE1-6347-720E-1DC66E13ADB3" name="T_POUPANCA PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 21:51:21 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<engineerTo>
+<item key="284DAFEB-13A6-9C27-BD87-E79F7A7C1112" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FC16A58-A63F-07A9-49A4-2C51C51DD939</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

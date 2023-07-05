@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="397D1EB1-428D-A8D6-7F02-554BFF8E7145" name="T_POUPANCA">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>EF81DEA9-AAB0-96A2-E9A2-93930BB3838D</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_poupanca" id="3C7EE898-5421-3CA9-F034-8C799CC9C4B1">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>429BCF67-111F-0D88-02BF-699905683E4C</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_poupanca" id="10E17CCC-8252-3D0B-3265-4E2661571B4A">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>766F8A45-A30B-DC76-88A1-165BA112FBCC</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_abertura" id="073A67B6-FD7F-351A-005C-A6083E8B8CB3">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>81E6E162-382F-A3B8-1910-5023DAD06BCE</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_USUARIO_cd_usuario" id="55593831-0DE5-7ACE-435F-F4686CC301E5">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>9DFDE41F-6C2D-6575-DE71-26E236361E0A</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7C8B838-E79D-97C7-0415-C0E4DDE39F34" referredColumn="71C03123-F988-7508-B73F-19147CFD476A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7705022A-48BC-4B52-5B57-A5A88D9906E9" name="T_POUPANCA_PK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>8B57B9F4-700B-57D5-4884-51F64C858991</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C7EE898-5421-3CA9-F034-8C799CC9C4B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB3D95DD-B9B4-9C9C-6159-F0D51DEAE698" name="T_POUPANCA__IDX">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A9BBC269-88EF-FDF3-3A4F-F4195C890572</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="55593831-0DE5-7ACE-435F-F4686CC301E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C137845-7FA8-91F5-8A7D-AA1909E43A55" name="T_POUPANCA_T_USUARIO_FK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>A9BBC269-88EF-FDF3-3A4F-F4195C890572</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55593831-0DE5-7ACE-435F-F4686CC301E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

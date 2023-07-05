@@ -1,0 +1,95 @@
+
+html,
+body {
+    background-image: url('https://img.freepik.com/vetores-premium/textura-de-glitter-dourado-em-fundo-preto_31825-499.jpg?w=740');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container{
+    height: 80%;
+    align-content: center;
+    }
+
+.card {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 370px;
+    height: 450px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px #ac7206, -20px -20px 60px #b69b04;
+}
+
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+
+.bg {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 355px;
+    height: 440px;
+    z-index: 1111;
+    background: rgba(254, 255, 255, 0.95);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid rgb(255, 255, 255);
+    background-image: url("../imagens/Cabank\ logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 370px;
+    height: 430px;
+    border-radius: 50%;
+    background-color: #974a02;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+}
+
+@keyframes blob-bounce {
+    0% {
+        transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+
+    25% {
+        transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+
+    50% {
+        transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+
+    75% {
+        transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+
+    100% {
+        transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+}
+.botao{
+    float: right;
+}

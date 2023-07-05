@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AFABF68E-3B42-B67F-89A8-5F49D3F4309F" containerWithKeyObject="64B0584E-9D30-F397-4B23-0DB84CEED598" localFKIndex="72186088-70E5-AD5B-BD93-3DBE22996878" name="T_TRANSFERENCIAS_T_IMAGEM_FK">
+<createdBy>bruno</createdBy>
+<createdTime>2023-05-11 20:21:56 UTC</createdTime>
+<generatorID>F91735CD-1993-4C40-AAF3-E8D8FD676241</generatorID>
+<ownerDesignName>modelo fisico e logico</ownerDesignName>
+<referredTableLongName>T_IMAGEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>007BEACE-ADE8-3974-E5D0-D4477240E955</referredTableID>
+<keyObject>69B62A1A-A314-531D-32DA-F278B0AA1A47</keyObject>
+<referredKeyID>69B62A1A-A314-531D-32DA-F278B0AA1A47</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_imagem</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
